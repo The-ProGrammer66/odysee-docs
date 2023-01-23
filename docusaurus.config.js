@@ -29,7 +29,7 @@ const config = {
             type: 'doc',
             docId: 'index',
             position: 'left',
-            label: 'Help Hub',
+            label: 'Help',
           },
           {
             type: 'localeDropdown',
@@ -105,7 +105,7 @@ const config = {
             items: [
               {
 				faicon: "fa-brands fa-github",
-                label: 'GitHub',
+                label: 'Code on GitHub',
                 href: 'https://github.com/OdyseeTeam',
               },
               {
@@ -191,7 +191,7 @@ const config = {
       ({
         sitemap: {
           changefreq: 'weekly',
-          priority: 0.5,
+          priority: 2.0,
           ignorePatterns: [
             '/tags/**',
             '/category-livestreaming/',
